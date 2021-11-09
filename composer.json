@@ -1,0 +1,15 @@
+{
+    "name": "igorbpersona/hockey-playoffs",
+    "authors": [
+        {
+            "name": "Igor Persona",
+            "email": "igorbpersona@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}
