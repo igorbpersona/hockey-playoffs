@@ -36,7 +36,7 @@ class Team
     {
         $this->setName($name);
         if (empty($players)) {
-            for ($i = 0; $i <= self::DEFAULT_NUMBER_OF_PLAYERS; $i++) {
+            for ($i = 0; $i < self::DEFAULT_NUMBER_OF_PLAYERS; $i++) {
                 $players[] = new Player();
             }
         }
